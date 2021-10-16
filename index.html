@@ -13,12 +13,25 @@
         id="catpic"
         src="https://images.unsplash.com/photo-1561948955-570b270e7c36?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnVubnklMjBjYXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
         alt="cute cat"
-        style="height: 250px; width: 200px; float: left;"
+        style="height: 250px; width: 200px; float: right;"
       />
       <h2>
         Clicks:
         <span><h1 id="countprint"></h1></span>
+        <span><h1 id="catname"></h1></span>
       </h2>
+      <button id="admin">ADMIN</button>
+
+      <form id="form" style="display: none;">
+        <label>Cat-Name:</label
+        ><input type="text" id="name" name="name" value="" /><br />
+        <label>Image-Url:</label
+        ><input type="text" id="imgurl" name="imgurl" value="" /><br />
+        <label>Clicks:</label
+        ><input type="text" id="clicks" name="clicks" value="" /><br />
+        <button id="save">Save</button>
+        <button id="cancel">Cancel</button>
+      </form>
     </div>
     <script src="src/mvc.js"></script>
   </body>
